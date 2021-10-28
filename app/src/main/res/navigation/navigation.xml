@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/main5">
+    <fragment
+        android:id="@+id/main5"
+        android:name="com.example.games.view.Main"
+        android:label="Main" >
+        <action
+            android:id="@+id/action_main5_to_detail6"
+            app:destination="@id/detail6">
+
+
+    </action>
+    </fragment>
+    <fragment
+        android:id="@+id/detail6"
+        android:name="com.example.games.view.Detail"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail" >
+        <action
+            android:id="@+id/action_detail6_to_main5"
+            app:destination="@id/main5" />
+
+        <argument
+            android:name="gameModel"
+            app:argType="com.example.games.model.GameModel" />
+
+
+    </fragment>
+</navigation>

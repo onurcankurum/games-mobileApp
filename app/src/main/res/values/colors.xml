@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+<!--  chromas colour palette (black-navy blue- gray)    -->
+    #000000,#160d22,#211639,#2d1f4e,#3a2860,#473370,#543f7e,#614c89,#6e5a92,#7b689a,#8777a0,#9287a4,#9d97a7,#a8a8a8
+    <color name="one">#000000</color>
+    <color name="two">#160d22</color>
+    <color name="three">#211639</color>
+    <color name="four">#2d1f4e</color>
+    <color name="five">#3a2860</color>
+    <color name="six">#473370</color>
+    <color name="seven">#543f7e</color>
+    <color name="eight">#614c89</color>
+    <color name="nine">#6e5a92</color>
+    <color name="ten">#7b689a</color>
+    <color name="eleven">#8777a0</color>
+    <color name="twelve">#9287a4</color>
+    <color name="thirteen">#9d97a7</color>
+    <color name="fourteen">#a8a8a8</color>
+
+
+
+
+</resources>
